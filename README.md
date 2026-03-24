@@ -9,7 +9,7 @@
 ## Executive Summary (Non-Technical)
 
 ### **The Problem**
-Most AI today is "unpredictable." You can ask it the same question twice and get two different answers—sometimes it's brilliant, and sometimes it makes things up (hallucinates). For a professional business, this unpredictability is a major risk that prevents them from using AI in "high-stakes" tasks.
+Most AI today is "unpredictable." You can ask it the same question twice and get two different answers. Sometimes it's brilliant, and sometimes it hallucinates. For a professional business, this unpredictability is a major risk that prevents them from using AI in high-stakes tasks.
 
 ### **The Solution: A Digital Supervisor**
 **AgentTrace** is a supervision system for AI. 
