@@ -13,7 +13,7 @@ Most AI today is "unpredictable." You can ask it the same question twice and get
 
 ### **The Solution: A Digital Supervisor**
 **AgentTrace** is a supervision system for AI. 
-* It acts like a **"Black Box Flight Recorder"** for AI Agents, recording every step of their "thought process" so we can see exactly where a mistake happened. 
+* It acts like a **automated audit tracer* for AI Agents, recording every step of their decision path and execution flow so we can see exactly where a mistake happened. 
 * It then uses a second, specialized "Senior AI" (the **Judge**) to automatically audit those logs.
 
 ### **The Result**
