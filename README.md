@@ -13,7 +13,7 @@ Most AI today is "unpredictable." You can ask it the same question twice and get
 
 ### **The Solution: A Digital Supervisor**
 **AgentTrace** is a supervision system for AI. 
-* It acts like a **automated audit tracer* for AI Agents, recording every step of their decision path and execution flow so we can see exactly where a mistake happened. 
+*It assigns UUIDs and timestamps to every execution step. for AI Agents, recording every step of their decision path and execution flow so we can see exactly where a mistake happened. 
 * It then uses a second, specialized "Senior AI" (the **Judge**) to automatically audit those logs.
 
 ### **The Result**
@@ -33,7 +33,7 @@ By building this "Safety Net," I've moved the conversation from "it feels like t
 
 AgentTrace is built on the **Observer Pattern**. It separates the "Doing" (the Agent) from the "Watching" (the Tracer) and the "Judging" (the Auditor).
 
-  * **`AgentTrace` Class:** The central registry for all agent interactions. It assigns UUIDs and timestamps to every "thought."
+  * **`AgentTrace` Class:** The central registry for all agent interactions. It assigns UUIDs and timestamps to every execution step.
   * **`AgentJudge` Class:** The compliance officer. It evaluates the raw traces against a set of business rules or a "Golden Dataset."
 
 -----
